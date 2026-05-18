@@ -1,0 +1,17 @@
+# 11 — {{project_name}} Dos and Don'ts
+
+## Always do
+
+{{project_dos}}
+
+## Never do
+
+{{project_donts}}
+
+## Hard rules specific to this project
+
+_Compliance, regulatory, contractual, brand-protective rules. Override the universal `feedback_hard_rules.md` only if this project is stricter. Fill in._
+
+## Context the AI should remember
+
+_Any backstory, prior incidents, or sensitivities that should shape every decision in this project. Fill in._

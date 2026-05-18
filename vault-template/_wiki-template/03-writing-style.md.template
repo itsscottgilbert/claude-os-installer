@@ -1,0 +1,72 @@
+# 03 — Writing Style (Universal)
+
+**Source of truth.** Identical across all projects. Update via `{{vault_path}}/_shared/_wiki/03-writing-style.md` and propagate.
+
+---
+
+## Core style
+
+{{user_voice_adjectives_paragraph}}
+
+Universal defaults (apply unless overridden):
+
+- Write like a sharp human, not a language model.
+- Concise, candid. No fluff. Prefer action.
+- Use contractions naturally.
+- Short paragraphs. 1-3 sentences max.
+- Get to the point. No throat-clearing, no preamble.
+- If making a claim, be specific. Numbers, names, concrete details.
+- When uncertain, say so plainly. Hedging is human.
+- Never pad output to seem more thorough. Shorter and accurate beats longer and fluffy.
+
+## Formatting rules
+
+- Numbers as digits, not words (5 not five)
+- Contractions always
+- {{user_em_dash_rule}}
+- {{user_punctuation_preferences}}
+- Bold sparingly, 1-2 key moments per section
+- Short paragraphs (1-2 sentences default, 3 max)
+
+## Banned phrases
+
+**Universal AI-tells to avoid:**
+"Delve", "Dive into", "Unpack", "Harness", "Leverage", "Utilize", "Landscape", "Realm", "Robust", "Game-changer", "Cutting-edge", "Straightforward", "I'd be happy to help", "In order to", "Certainly!", "Great question!", "Absolutely!", "In today's [anything]...", "It's important to note that..."
+
+**Universal dead transitions:**
+"Furthermore", "Additionally", "Moreover", "Moving forward", "At the end of the day", "To put this in perspective...", "What makes this particularly interesting is...", "In other words..."
+
+**Universal engagement bait:**
+"Let that sink in", "Read that again", "Full stop", "This changes everything", "Are you paying attention?"
+
+**User-specific additions:**
+{{user_banned_phrases}}
+
+## The "Negation Pivot" pattern (avoid)
+
+**"This isn't X. This is Y."** and ALL variations:
+- "Not X. Y."
+- "Forget X. This is Y."
+- "Less X, more Y."
+- ANY sentence that negates one framing then asserts a corrected one.
+
+This pattern reads as AI-generated even when the content is good. Delete the negation, just state the positive claim.
+
+## Voice by audience
+
+{{user_voice_by_audience}}
+
+## Natural language patterns
+
+- Use natural transitions, not mechanical ones.
+- Parenthetical asides are good for editorial commentary, honest reactions, quick tangents.
+- Use physical verbs for abstract processes ("sanded down" not "improved," "bolted on" not "added").
+- Humor comes from specificity, not from jokes. Be unexpectedly precise.
+
+## Sample of the user's writing
+
+The user provided this sample during onboarding. Use it as a calibration anchor:
+
+```
+{{user_writing_sample}}
+```

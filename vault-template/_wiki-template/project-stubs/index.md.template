@@ -1,0 +1,25 @@
+# {{project_name}} — Wiki Index
+
+The foundation knowledge for this project. Read these first.
+
+## Universal (shared across all projects)
+
+- [01 — User profile](01-user-profile.md)
+- [02 — AI operating rules](02-ai-operating-rules.md)
+- [03 — Writing style](03-writing-style.md)
+
+## Project-specific
+
+- [04 — Mission](04-project-mission.md)
+- [05 — Business](05-project-business.md)
+- [06 — ICP](06-project-icp.md)
+- [07 — Offer](07-project-offer.md)
+- [08 — Voice](08-project-voice.md)
+- [09 — Messaging](09-project-messaging.md)
+- [10 — GTM](10-project-gtm.md)
+- [11 — Dos and don'ts](11-project-dos-donts.md)
+
+## Working files
+
+- [log.md](log.md) — running decision log for this project
+- `learnings/` — folder for ad-hoc notes and research (create as needed)

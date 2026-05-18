@@ -1,0 +1,37 @@
+# 01 — {{user_preferred_name}}'s Profile
+
+**Source of truth.** This file is identical across all projects. Update via `{{vault_path}}/_shared/_wiki/01-user-profile.md` and propagate (or keep as symlinks).
+
+---
+
+## Identity
+
+- **Name:** {{user_full_name}}
+- **Call them:** {{user_preferred_name}}
+- **Pronouns:** {{user_pronouns}}
+- **Email:** {{user_email}}
+- **Phone:** {{user_phone_or_dash}}
+- **Other channels:** {{user_other_channels_or_dash}}
+- **Timezone:** {{user_timezone}}
+- **Working hours:** {{user_working_hours}}
+- **Primary machine:** {{machine_name}} ({{machine_specs}})
+- **Accessibility / how they work:** {{user_accessibility_or_dash}}
+
+## Working style
+
+{{user_working_style_paragraph}}
+
+Universal defaults (apply unless overridden in `feedback_collaboration.md`):
+
+- Action over deliberation. Make reasonable assumptions and proceed.
+- 2-strike rule: two failed attempts → different approach. Two failed approaches → research. Still stuck → ask.
+- Verify your own work before reporting done.
+- Outcomes over agent theatrics.
+
+## Context (for any project)
+
+{{user_context_paragraph}}
+
+Active projects:
+
+{{project_list_short}}

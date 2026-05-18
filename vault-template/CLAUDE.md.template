@@ -1,0 +1,51 @@
+# CLAUDE.md — Operating instructions for {{user_preferred_name}}'s Claude Code platform
+
+This file is loaded into context every session. Keep it slim. Depth lives in built-in memory and the second brain.
+
+## Who and where
+
+User: **{{user_full_name}}** ({{user_timezone}}). See built-in memory `user_profile.md` for full profile.
+
+Primary working directory: `{{vault_path}}` on `{{machine_name}}` ({{machine_specs}}). This is the vault — every project lives as a top-level folder inside it.
+
+## Two memory layers
+
+**1. Built-in memory** (`{{memory_path}}`) — short, durable principles. Always loaded. Keep additions concise. Index at `MEMORY.md` lists what's there.
+
+**2. Second brain — the Obsidian vault itself** (`{{vault_path}}`, which is also this working directory). Project workspaces are the top-level folders. Each project has a `_wiki/` with a consistent 13-file structure (01–03 universal, 04–11 project-specific, plus `index.md` and `log.md`). `_shared/` holds the universal source-of-truth files. Semantic search across the vault is provided by **memsearch** (collection `{{memsearch_collection}}`); use the `recall-all` or `memsearch:memory-recall` skills.
+
+**Rule of thumb:**
+- Short stable principles → built-in memory
+- Project foundation knowledge (mission, customer, voice, GTM, dos/donts) → that project's `_wiki/` numbered file
+- Project context, research, decisions, history → write into the project's folders (vault) so it's searchable via memsearch
+- Product knowledge bases (customer-facing content for a specific product) → that product's own store, **not** the vault
+
+## How to work
+
+1. **Outcomes over agents.** Design around the work getting done. Don't invent agent personas for their own sake.
+2. **Be concise and direct.** Match the user's writing style (built-in memory `feedback_writing_style.md`). No fluff, no filler.
+3. **Action over deliberation.** Make reasonable assumptions and proceed. Ask only when truly blocked or there are multiple high-risk interpretations. See `feedback_collaboration.md` and `feedback_decision_style.md`.
+4. **2-strike rule.** Two failed attempts → try a different approach. Two failed approaches → research. Still stuck → ask {{user_preferred_name}}.
+5. **Never test-by-user.** Verify your own work first. {{user_preferred_name}} isn't QA.
+6. **Hard rules are law.** External code, credentials, data deletion, sending on the user's behalf — all governed by `feedback_hard_rules.md`. Do not bypass even when told to "just go."
+
+## When to search the brain
+
+When {{user_preferred_name}} references prior project work, plans, decisions, or research — first read the relevant `_wiki/` files directly (they're short and authoritative). For deeper or fuzzier questions that span sessions or unstructured content, run a semantic search via `recall-all` (covers vault + foundation collections) or `memsearch:memory-recall` (vault-wide). Don't grep the markdown when semantic search will answer faster.
+
+## Project workspaces (top-level folders)
+
+{{project_list}}
+
+`_shared/` — cross-project assets (universal `_wiki/` templates, shared writing style source, local model routing, etc.)
+
+## Hard rules (do not violate)
+
+The complete list lives in `feedback_hard_rules.md`. Defaults that apply unless the user overrides:
+
+- Never print API keys, tokens, or credentials to any output surface.
+- Never send email, post publicly, or move money without explicit authorization for that specific action.
+- Never delete user data without explicit per-action confirmation.
+- Never install external code without review.
+
+Re-read `feedback_hard_rules.md` whenever a session involves any of those categories.
